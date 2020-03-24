@@ -349,9 +349,18 @@
   }
 
 header, body {
-    background-color: tomato;
+    background-color: cornsilk;
     font-family: serif;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+#introtext {
+  font-family: Helvetica;
+  font-size: 24px;
+  background-color: firebrick;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 body {
@@ -361,10 +370,10 @@ body {
     margin-left: auto;
     width: 75%;
     padding: 100px 200px;
-    color: white;
     font-family: serif;
     font-size: larger;
     font-size: 18px;
+    text-decoration: none;
 }
 
 header h1 {
@@ -374,6 +383,12 @@ header h1 {
 h2 {
     padding: 5px 5px;
 }
+h2.restaurantnames {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  color: black;
+  text-align: center;
+}
 
 p {
     padding: 5px 5px;
@@ -382,6 +397,18 @@ p {
 img {
     width: 100%;
     max-width: 100%;
+}
+
+.pquote {
+  float: center;
+  width: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  background: firebrick;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 15px;
+  margin: 0 15px 15px 0;
 }
 
 /*   
